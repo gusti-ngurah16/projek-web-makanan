@@ -60,6 +60,10 @@ body {
     border-bottom: 2px solid #a80000;
 }
 
+.login-btn{
+    margin-right: 70px; 
+}
+
 .login-btn a {
     text-decoration: none;
     color: #a80000;

@@ -1,14 +1,21 @@
+:root {
+      --primary: #6b3b2a;
+      --secondary: #d4a373;
+      --bg: #1f1f1f;
+      --light: #ffffff;
+}
+
 /* General styles */
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #C0977B;
+    background-color: var(--bg);
 }
 
 .japanese-text {
     font-size: 2rem;
-    color: #a80000;
+    color: var(--secondary)
 }
 
 /* Header/Navbar */
@@ -93,7 +100,7 @@ body {
 }
 
 .gallery-section {
-    background-color: #C0977B;
+    background-color: var(--bg);
     text-align: center;
     padding: 40px 20px;
 }
@@ -110,7 +117,7 @@ body {
 
 .gallery-tabs .tab {
     text-decoration: none;
-    color: #555;
+    color: #ffffff;
     font-size: 1.2rem;
     padding: 10px 20px;
     border-radius: 20px;
@@ -118,9 +125,22 @@ body {
     transition: background-color 0.3s;
 }
 
+.gallery-tabs .tab:hover {
+    text-decoration: none;
+    color: #1f1f1f;
+    background-color: var(--secondary);
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+}
+
+
 .gallery-tabs .tab.active {
-    background-color: #a80000;
-    color: #fff;
+    color: #ffffff;
+    background-color: var(--primary)
+    
 }
 
 .gallery-grid {

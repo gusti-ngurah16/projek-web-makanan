@@ -1,47 +1,52 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Umai Restaurant - Gallery</title>
-    <link rel="stylesheet" href="Style Gallery.css">
+    <link rel="stylesheet" href="style Food.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header class="navbar">
-        <div class="logo">
-            <a href="Index Food Gallery.html">
-                <img src="/image/loo.svg">
-            </a>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Reservation</a></li>
-                <li><a href="#" class="active">Gallery</a></li>
-                <li><a href="#">Special offers</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="login-btn">
-            <a href="#">Login</a>
-        </div>
-    </header>
+<header>
+    <div class="logo">
+        <img src="/image/loo.svg" alt="" srcset="" class="img-logo" style="height: 40px; vertical-align: middle;">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Reservation</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Offers</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="login-btn">LOGIN</button>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Gallery</h1>
+      <p>Experience authentic Japanese cuisine with ease. Book your table online and enjoy our delicious dishes in a cozy atmosphere. Reserve now!</p>
+    </div>
+  </section>
 
     <main class="content">
-        <img src="/image/Header Food.svg" class="hero-image">
+        
 
         <section class="gallery-section">
             <div class="gallery-header">
-                <h1 class="japanese-text">旨いレストラン</h1>
+                <h1 class="japanese-text">ギャラリー</h1>
                 <h2>Gallery</h2>
             </div>
             <div class="gallery-tabs">
-                <a href="#" class="tab active" id="food-tab">Food</a>
+                <a href="#" class="tab" id="food-tab">Food</a>
                 <a href="#" class="tab" id="drink-tab">Drinks</a>
-                <a href="#" class="tab" id="dessert-tab">Dessert</a>
+                <a href="#" class="tab active" id="dessert-tab">Dessert</a>
             </div>
             <div class="gallery-grid">
                 <div class="gallery-item">
@@ -89,4 +94,5 @@
 
     <script src="script gallery.js"></script>
 </body>
+
 </html>
